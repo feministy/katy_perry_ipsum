@@ -26,21 +26,36 @@ And then use your ```katy_perry``` variable throughout.
 
 :exclamation: Unless otherwise noted, all methods return a String.
 
-### word
+#### word
 
 Returns one word that is lowercase.
 
-### words(n)
+```ruby
+katy_perry.word
+# => "firework"
+```
+
+#### words(n)
 
 :exclamation: Returns an Array.
 
 Returns ```n``` random words, all lowercase.
 
-### word_capitalized
+```ruby
+katy_perry.words(3)
+# => ["candy", "dream", "pony"]
+```
+
+#### word_capitalized
 
 Returns one word that is capitalized.
 
-### flimsy_excuse
+```ruby
+katy_perry.word_capitalized
+# => Candy
+```
+
+#### flimsy_excuse
 
 Defaults to one excuse. You can provide an optional Integer argument and receive ```n``` excuses.
 
@@ -56,7 +71,7 @@ katy_perry.flimsy_excuse(3)
 
 ## Extra Stuff
 
-### Contributing
+#### Contributing
 
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
@@ -66,7 +81,7 @@ katy_perry.flimsy_excuse(3)
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-### Copyright
+#### Copyright
 
 Copyright (c) 2013 Liz Abinante. See LICENSE.txt for
 further details.
