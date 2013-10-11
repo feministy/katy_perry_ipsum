@@ -65,7 +65,7 @@ katy_perry.flimsy_excuse
 ```
 
 # TODO
-#### flimsy_excuse(n)
+#### flimsy_excuses(n)
 
 :exclamation: Returns an Array.
 
