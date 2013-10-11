@@ -13,12 +13,11 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "katy_perry_ipsum"
   gem.homepage = "http://github.com/feministy/katy_perry_ipsum"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "A Katy Perry-inspired lorem ipsum generator."
+  gem.description = "Cotton candy dreams."
   gem.email = "eabinante@gmail.com"
   gem.authors = ["Liz Abinante"]
   # dependencies defined in Gemfile
