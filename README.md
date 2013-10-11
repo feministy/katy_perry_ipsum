@@ -4,33 +4,52 @@ The world's happiest lorem ipsum generator with the most personality.
 
 The only dependencies for katy_perry_ipsum are in development for testing. This gem is created and managed with Jeweler and tested with RSpec.
 
-**Install**: ```$ gem install katy_perry_ipsum```
+**Install** using Rubygems: ```$ gem install katy_perry_ipsum```
 
-**Require**
+And then add it to your Gemfile, like you do:
 
 ```ruby
 # Gemfile
 gem 'katy_perry_ipsum'
 ```
 
-You now have access to the ```katy_perry``` variable and all of its methods.
+Initialize like so:
+```ruby
+katy_perry = KatyPerry::Ipsum.new
+```
 
-Unless otherwise noted, all methods return a String.
+And then use your ```katy_perry``` variable throughout.
 
 ---
 
-## Usage
+## Methods
 
-**Flimsy excuse**
+:exclamation: Unless otherwise noted, all methods return a String.
+
+### word
+
+Returns one word that is lowercase.
+
+### words(n)
+
+:exclamation: Returns an Array.
+
+Returns ```n``` random words, all lowercase.
+
+### word_capitalized
+
+Returns one word that is capitalized.
+
+### flimsy_excuse
 
 Defaults to one excuse. You can provide an optional Integer argument and receive ```n``` excuses.
 
 ```ruby
-katy_perry.flimsy_excuse(3)
-# => I'm still breathing, I'm a pearl, and who am I living for?
-
 katy_perry.flimsy_excuse
 # => Last Friday night.
+
+katy_perry.flimsy_excuse(3)
+# => I'm still breathing, I'm a pearl, and who am I living for?
 ```
 
 ---
