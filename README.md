@@ -62,9 +62,16 @@ Defaults to one excuse. You can provide an optional Integer argument and receive
 ```ruby
 katy_perry.flimsy_excuse
 # => Last Friday night.
+```
 
+# TODO
+#### flimsy_excuse(n)
+
+:exclamation: Returns an Array.
+
+```ruby
 katy_perry.flimsy_excuse(3)
-# => I'm still breathing, I'm a pearl, and who am I living for?
+# => ["I'm still breathing.", "I'm a pearl.", "Who am I living for?"]
 ```
 
 ---
