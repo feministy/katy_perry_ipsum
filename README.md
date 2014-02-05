@@ -1,3 +1,9 @@
+# This gem in unreleased.
+
+Nothing below actually works. The information is here for *the future*.
+
+---
+
 # Katy Perry Ipsum
 
 The world's happiest lorem ipsum generator with the most personality.
